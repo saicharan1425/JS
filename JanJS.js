@@ -119,7 +119,7 @@
 
 // // return console.log(`min:${min} max:${max}`)
 // return { min, max };
-// }
+// }    
 // console.log(minMax([1,2,3,4,5,6])) 
 
 // function calculator(a,b,op){
@@ -172,4 +172,18 @@
 // calculator1(5,2,'*')
 // calculator1(5,2,'/')
 // calculator1(5,2,'&')
+
+//for of loop
+
+// const items = ['book', 'table', 'chair', 'kite'];
+
+// for(let item of items){ //=>for(i=0; i< items.length; i++)
+//     console.log(item);  //=> console.log(items[i]);
+// }
+
+// const coloArr = ['red','green', 'blue', 'yellow']
+
+// for (const arr in coloArr){
+//     console.log(coloArrc[arr])
+// }
 
