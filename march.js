@@ -18,10 +18,10 @@ function displayItems(){
 function onAISubmit(e){
  
     
- e.preventDefault()
+  e.preventDefault()
  const newItem = iteminput.value
 
- if(iteminput.value == ''){
+ if(newItem === ''){
     alert('Insert Something')
     return
  }
@@ -104,7 +104,7 @@ function onClickItem(e){
     }
 }
 
-function checkIfItemExists(){
+function checkIfItemExists(item){
     const itemsFromStorage = getItemsFromStorage();
 
     return itemsFromStorage.includes(item)
