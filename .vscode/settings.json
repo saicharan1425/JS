@@ -1,7 +1,0 @@
-{
-    "prettier.endOfLine": "auto",
-    "prettier.requirePragma": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": false,
-    "prettier.trailingComma": "es5"
-}
