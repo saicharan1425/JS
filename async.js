@@ -243,4 +243,25 @@
 // .then(getData)
 
 
+// // Arrays
 
+// let styles = ['jazz','Blues']
+
+// styles.push('Rock-n-roll');
+// console.log(styles);
+
+// styles[1]= 'classics';
+// console.log(styles);
+// console.log(styles.shift())
+
+// styles.unshift('Rap','Reggae')
+// console.log(styles);
+
+
+// let arr = ["a", "b"];
+
+// arr.push(function() {
+//   alert( this );
+// });
+
+// arr[2]()
