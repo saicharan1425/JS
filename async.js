@@ -264,4 +264,28 @@
 //   alert( this );
 // });
 
-// arr[2]()
+// arr[2]()'
+
+  function sumtree(){
+    let arr=[]
+  while(true){
+
+let x = +prompt('Enter a value',0)
+ //if (x === "" || x === null || !isFinite(x)) break;
+if(typeof(x) != 'number' || x==NaN || x == '') break;
+    arr.push(+x)
+  
+    
+  }         
+  console.log(arr);
+  let sum = 0
+  for(let num of arr) {
+    sum += num
+  
+  }
+  return sum
+    
+
+}
+
+alert(sumtree())
