@@ -266,26 +266,70 @@
 
 // arr[2]()'
 
-  function sumtree(){
-    let arr=[]
-  while(true){
+//   function sumtree(){
+//     let arr=[]
+//   while(true){
 
-let x = +prompt('Enter a value',0)
- //if (x === "" || x === null || !isFinite(x)) break;
-if(typeof(x) != 'number' || x==NaN || x == '') break;
-    arr.push(+x)
+// let x = +prompt('Enter a value',0)
+//  //if (x === "" || x === null || !isFinite(x)) break;
+// if(typeof(x) != 'number' || x==NaN || x == '') break;
+//     arr.push(+x)
   
     
-  }         
-  console.log(arr);
-  let sum = 0
-  for(let num of arr) {
-    sum += num
+//   }         
+//   console.log(arr);
+//   let sum = 0
+//   for(let num of arr) {
+//     sum += num
   
-  }
-  return sum
+//   }
+//   return sum
     
 
-}
+// }
 
-alert(sumtree())
+// alert(sumtree())
+
+
+// function getMaxSubSum(x){
+
+//     let part=0
+//     let max= 0
+//     for(sum of x){
+//         part +=sum
+//         max= Math.max(max,part)
+//         if(part > max) max = part
+//     }
+//     return max
+// }
+
+// function getMaxSubSum(arr) {
+//   let maxSum = 0; // if we take no elements, zero will be returned
+
+//   for (let i = 0; i < arr.length; i++) {
+//     let sumFixedStart = 0;
+//     for (let j = i; j < arr.length; j++) {
+//       sumFixedStart += arr[j];
+//       maxSum = Math.max(maxSum, sumFixedStart);
+//     }
+//   }
+
+//   return maxSum;
+// }
+
+// console.log(getMaxSubSum([-1, 2, 3, -9]) );
+// console.log(getMaxSubSum([2, -1, 2, 3, -9]));
+// console.log(getMaxSubSum([-1, 2, 3, -9, 11]));
+// console.log(getMaxSubSum([-2, -1, 1, 2]));
+// console.log(getMaxSubSum([100, -9, 2, -3, 5]));
+// console.log(getMaxSubSum([1, 2, 3]));
+// console.log(getMaxSubSum([-1, -2, -3]));
+
+
+// getMaxSubSum([-1, 2, 3, -9]) 
+// getMaxSubSum([2, -1, 2, 3, -9])
+// getMaxSubSum([-1, 2, 3, -9, 11])
+// getMaxSubSum([-2, -1, 1, 2])
+// getMaxSubSum([100, -9, 2, -3, 5])
+// getMaxSubSum([1, 2, 3])
+
